@@ -2,7 +2,7 @@
 
 void print_array10(ostream& os, int* a)        //4.
 {
-    for(int i = 0; i < 10; ++i)
+    for(int i = 0; i < 10; i++)
     {
         os << a[i] << endl;
     }
@@ -10,7 +10,7 @@ void print_array10(ostream& os, int* a)        //4.
 
 void print_array(ostream& os, int* a, int n)   //7.
 {
-	for(int i = 0; i < n; ++i)
+	for(int i = 0; i < n; i++)
     {
     	os << a[i] << endl;
     }
@@ -63,7 +63,7 @@ int main()
 
         
     vector<int> v;                            //10.
-    for(int i = 0; i < 10; ++i)
+    for(int i = 0; i < 10; i++)
     {
         v.push_back(100 + i);
     }
@@ -71,7 +71,7 @@ int main()
     cout << endl;
     
     vector<int> v2;
-    for(int i = 0; i < 11; ++i)
+    for(int i = 0; i < 11; i++)
     {
         v2.push_back(100 + i);
     }
@@ -79,7 +79,7 @@ int main()
     cout << endl;
     
     vector<int> v3;
-    for(int i = 0; i < 20; ++i)
+    for(int i = 0; i < 20; i++)
     {
         v3.push_back(100 + i);
     }
