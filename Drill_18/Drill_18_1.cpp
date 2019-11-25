@@ -5,11 +5,11 @@ int ga[10];                                         //1.
 void f( int array[], int num_of_elements)           //2.
 {
     int la[10];                                     //3a.
-    for(int i = 0; i < num_of_elements; i++)
-    {
-        la[i] = array[i];                           //3b.
-        cout << la[i] << endl;                      //3c.
-    }
+        for(int i = 0; i < num_of_elements; i++)
+        {
+            la[i] = array[i];                       //3b.
+            cout << la[i] << endl;                  //3c.
+        }
 
     int *p = new int[num_of_elements];              //3d.
         for (int i = 0; i < num_of_elements; i++)
